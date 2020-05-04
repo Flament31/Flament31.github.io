@@ -27,16 +27,17 @@ p, ul
 h1
 {
 	font-size: 4em;
-	margin-top: 10%;
-	margin-left: 5%;
 }
 
-h3
+h2
+{	
+	color: dimgrey;
+}
+
+h1, h2
 {
 	margin-bottom: 10%;
 	margin-left: 5%;
-	color: dimgrey;
-	text-decoration: underline;
 }
 
 h2, h3
@@ -49,21 +50,26 @@ h1, h2, h3
 	font-family: "abhaya_libreregular";
 }
 
-ul
-{
-	list-style: none;
-}
-
 span
 {
 	color: gold;
+}
+
+i
+{
+	margin: 10px;
+}
+
+ul
+{
+	list-style: none;
 }
 
 #all
 {
 	display: flex;
 	flex-direction: column;
-	background-color: white;
+	background-color: white;	
 }
 
 #contact
@@ -71,7 +77,29 @@ span
 	background-color: gold;
 	display: flex;
 	flex-direction: column;
-    justify-content: center;    
+    justify-content: space-between;   
+}
+
+.element
+{
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	margin: 5px;
+}
+
+.sous-element
+{
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	margin: 5px;
+}
+
+.sous-block
+{
+	padding: 10px;
+	margin: 5px;
 }
 
 .partie:first-child
@@ -96,13 +124,13 @@ span
 {	
 	padding: 10px;
 	margin: 5px;
-	text-align: justify;
 }
 
-.element
+.sous-partie
 {
-	padding: 10px;
-	margin: 5px;
+	padding-left: 40px;
+	padding-right: 40px;
+	text-align: justify;
 }
 
 .titre
