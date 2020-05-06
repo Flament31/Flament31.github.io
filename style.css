@@ -13,7 +13,7 @@
 
 body
 {
-	margin: 0.01em;
+	margin: 0.01px;
 	display: flex;
 	justify-content: center;
 	background-color: black;
@@ -27,17 +27,16 @@ p, ul
 h1
 {
 	font-size: 4em;
+	margin-left: 5%;
+	margin-bottom: 0.1%;
 }
 
 h2
 {	
 	color: dimgrey;
-}
-
-h1, h2
-{
-	margin-bottom: 10%;
 	margin-left: 5%;
+	margin-bottom: 10%;
+	margin-top: 0.1%;
 }
 
 h2, h3
@@ -84,22 +83,24 @@ ul
 {
 	display: flex;
 	flex-direction: column;
-	padding: 10px;
-	margin: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 5px;
 }
 
 .sous-element
 {
-	display: flex;
 	justify-content: space-between;
-	padding: 10px;
-	margin: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 5px;
 }
 
 .sous-block
 {
-	padding: 10px;
-	margin: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 5px;
 }
 
 .partie:first-child
@@ -122,8 +123,9 @@ ul
 
 .partie
 {	
-	padding: 10px;
-	margin: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 5px;
 }
 
 .sous-partie
@@ -135,7 +137,7 @@ ul
 
 .titre
 {
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid yellow;
 	margin-right: 5%;
 	margin-left: 5%;
 }
@@ -162,6 +164,11 @@ ul
     #contact
     {
     	width: 45%;
+    }
+
+    .sous-element
+    {  
+ 	    display: flex;
     }
 }
 
