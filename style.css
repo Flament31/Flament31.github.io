@@ -83,11 +83,6 @@ i
 	margin-left: 5px;
 }
 
-.element:last-child
-{
-  margin-left: 5%; 
-}
-
 .sous-element
 {
 	justify-content: space-between;
@@ -143,8 +138,8 @@ i
 .titre
 {
 	border-bottom: 1px solid yellow;
-	margin-right: 5%;
-	margin-left: 5%;
+	margin-right: 3%;
+	margin-left: 3%;
 }
 
 .titrebis
