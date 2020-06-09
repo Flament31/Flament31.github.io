@@ -83,6 +83,11 @@ i
 	margin-left: 5px;
 }
 
+.element:last-child
+{
+	margin-bottom: 10px;
+}
+
 .sous-element
 {
 	justify-content: space-between;
@@ -110,17 +115,22 @@ i
    margin: 10%;
 } 
 
-.partie:last-child
-{
-	font-size: 3em;
-	text-align: center;
-}
-
 .partie
 {	
 	padding-left: 10px;
 	padding-right: 10px;
 	margin-left: 5px;
+}
+
+.loisir-container div
+{
+   text-align: center;
+   padding: 20px 0;
+}
+
+.loisir-container .titrebis
+{
+	margin-bottom: 0;
 }
 
 .sous-partie
@@ -149,17 +159,13 @@ i
 	text-align: center;
 }
 
-.titrebis:nth-child(6)
-{
-	margin-bottom: 1%;
-}
-
 #loisir, #loisirbis, #loisirter
 {
 	border: 2px solid dimgrey;
 	border-radius: 100px;
 	padding: 5px;
 	color: dimgrey;
+	font-size: 3em;
 }
 
 #loisir
